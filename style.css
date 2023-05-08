@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 65vw;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: white;
+    box-shadow: 0px 0px 7px 1px black;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+div.album{
+    transition: .3s;
+    height: 500px;
+    margin-top: -5px;
+    padding: 0px;
+}
+
+h2{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div p{
+    width: 30vw;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+img{
+    display: block;
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#ts1{
+    background: white url('images/Debut_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts2{
+    background: white url('images/Fearless_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts3{
+    background: white url('images/Speak-Now_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts4{
+    background: white url('images/Red_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts5{
+    background: white url('images/1989_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts6{
+    background: white url('images/Reputation_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts7{
+    background: white url('images/Lover_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts8{
+    background: white url('images/Folklore_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts9{
+    background: white url('images/Evermore_Header.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ts10{
+    background: white url('images/Midnights_Header.jpg') fixed no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 30px;
+}
+
+footer > p{
+    padding-top: 5px;
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    margin-left: 35%;
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+}

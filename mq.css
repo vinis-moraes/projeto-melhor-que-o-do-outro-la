@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width:800px){
+    div p{
+        position: absolute;
+    }
+
+    div img{
+        position: absolute;
+    }
+
+    div.album{
+        transition: .3s;
+        height: 300px;
+    }
+
+    .right{
+        right: 15px;
+    }
+
+    .left{
+        left: 15px;
+    }
+}
